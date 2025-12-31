@@ -131,8 +131,9 @@ cohere-mcp-server/
 
 ## 🔑 API Keys
 
-- **Test Key** (current): `Gux6pRQoo4UT99Y9yBXthtNrXSa4WjpyPIBPMtkC`
+- **Test Key**: Stored in `.env` file (not committed to repository)
 - **Production Key**: Stored separately for production use
+- Get your API key from: https://dashboard.cohere.com/api-keys
 
 ## 📚 Available Models
 

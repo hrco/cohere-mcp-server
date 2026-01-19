@@ -45,7 +45,7 @@ A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that p
 
 1. Clone or download this repository:
 ```bash
-cd /home/diablo/Projects/COHERE/cohere-mcp-server
+cd /home/<user>/Projects/cohere-mcp-server
 ```
 
 2. Install the package:

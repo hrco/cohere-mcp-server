@@ -22,7 +22,7 @@ Your Cohere MCP server is **fully operational** with these capabilities:
 Test the server from command line:
 
 ```bash
-cd /home/diablo/Projects/COHERE/cohere-mcp-server
+cd /home/<user>/Projects/cohere-mcp-server
 source venv/bin/activate
 
 # Test chat
@@ -46,7 +46,7 @@ Add to your Claude Desktop config (`~/.config/Claude/claude_desktop_config.json`
 {
   "mcpServers": {
     "cohere": {
-      "command": "/home/diablo/Projects/COHERE/cohere-mcp-server/venv/bin/cohere-mcp",
+      "command": "/home/<user>/Projects/cohere-mcp-server/venv/bin/cohere-mcp",
       "env": {
         "COHERE_API_KEY": "your-api-key-here"
       }
@@ -165,7 +165,7 @@ pytest -v
 ## 🐛 Troubleshooting
 
 **"API key not found"**
-- Check `.env` file in `/home/diablo/Projects/COHERE/.env`
+- Check `.env` file in `/home/<user>/Projects/COHERE/.env`
 - Ensure environment variable is exported
 
 **"Model not found"**
